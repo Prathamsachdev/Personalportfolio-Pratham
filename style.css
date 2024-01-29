@@ -10,6 +10,25 @@
     font-family: 'Poppins';
 }
 
+#loader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-delay: 3s;
+}
+
+.loader_img{
+    width: 6vw;
+}
+
+#content {
+    display: none;
+}
+
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -443,6 +462,10 @@ span {
 }
 
 @media ( max-width: 768px) {
+    .loader_img{
+        width: 20vw;
+    }
+
     #menu-icon{
         font-size: 26px;
         display: block;
@@ -569,6 +592,10 @@ span {
 
 @media ( max-width: 617px) {
 
+    .loader_img{
+        width: 9vw;
+    }
+
     .heading{
         font-size: 30px;
     }
@@ -610,6 +637,11 @@ span {
 } 
 
 @media ( max-width: 425px) {
+
+    .loader_img{
+        width: 20vw;
+    }
+
     html {
         font-size: 50%;
     }
