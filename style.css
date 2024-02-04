@@ -23,6 +23,10 @@
     width: 6vw;
 }
 
+#contant {
+    display: none;
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
