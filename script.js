@@ -1,4 +1,11 @@
 /*==================== loader ====================*/
+
+// var loader = document.getElementById("loader");
+
+// window.addEventListener("load", function(){
+//   loader.style.display = "block";
+// })
+
 window.onload = function() {
   document.getElementById("loader").style.display = "none"
   document.getElementById("content").style.display = "block"
